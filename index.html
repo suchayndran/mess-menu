@@ -1,10 +1,11 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Mess Menu</title>
+    <title>Today's Mess Menu</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,36 +15,58 @@
     <main class="container">
 
         <header>
-            <h1>🍽️ Today's Mess Menu</h1>
+            <h1>🍽️ Mess Menu</h1>
 
             <p id="date"></p>
+
             <p id="weekType"></p>
         </header>
 
+
+        <!-- DAY NAVIGATION -->
+
+        <div class="navigation">
+
+            <button id="previousDay">
+                ← Previous Day
+            </button>
+
+            <button id="todayButton">
+                Today
+            </button>
+
+            <button id="nextDay">
+                Next Day →
+            </button>
+
+        </div>
+
+
+        <!-- MENU -->
 
         <section class="menu">
 
             <div class="meal-card">
                 <h2>🍳 Breakfast</h2>
-                <p id="breakfast"></p>
+                <p id="breakfast">Loading...</p>
             </div>
 
 
             <div class="meal-card">
                 <h2>🍛 Lunch</h2>
-                <p id="lunch"></p>
+                <p id="lunch">Loading...</p>
             </div>
 
 
             <div class="meal-card">
                 <h2>☕ Snacks</h2>
-                <p id="snacks"></p>
+                <p id="snacks">Loading...</p>
             </div>
 
 
             <div class="meal-card">
                 <h2>🌙 Dinner</h2>
-                <p id="dinner"></p>
+                <p id="dinner">Loading...</p>
             </div>
 
         </section>
@@ -55,3 +78,4 @@
 
 </body>
 </html>
+```
